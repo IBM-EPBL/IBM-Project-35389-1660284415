@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwritten Recognition System</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(db-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    background-color: lightskyblue;
+    opacity: 0.9;
+    font-size: 20px;
+    padding: 10px;
+    position: sticky;
+}
+
+.navbar {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    color: rgb(9, 7, 7);
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: darkblue;
+    cursor: pointer;
+}
+
+.main {
+    margin: 40px;
+}
+
+.main-heading {
+    color: rgb(16, 4, 4);
+    text-align: center;
+    letter-spacing: 1.5;
+    margin: 50px 0 0px;
+}
+
+.content {
+    color: rgb(11, 3, 3);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 150px;
+}
+</style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="second.html">Recognize</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="bg-pic"></div>
+
+    <main class="main">
+        <h1 class="main-heading">Handwritten Recognition System</h1>
+
+        <p class="content">
+            <em>
+                Handwritten Text Recognition is a technology that is much needed in this world as of today. This digit
+                Recognition system is used to recognize the digits from different sources like emails, bank cheque,
+                papers, images, etc. Before proper implementation of this technology we have relied on writing texts
+                with our own hands which can result in errors. It's difficult to store and access physical data with
+                efficiency. The project presents recognizing the handwritten digits (0 to 9) from the famous MNIST
+                dataset. Here we will be using artificial neural networks convalution neural network.
+            </em>
+        </p>
+    </main>
+</body>
+
+</html>
