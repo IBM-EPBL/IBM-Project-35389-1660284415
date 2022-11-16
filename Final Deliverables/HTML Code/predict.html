@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+</head>
+
+<style>
+    body{
+     background-image: url('https://i.postimg.cc/Rh5218Mq/pexels-roman-friptuleac-10925129.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+
+    #rectangle{
+     width:400px;
+     height:150px;
+     background-color: #42342f;
+     border-radius: 30px;
+     position:absolute;
+     top:45%;
+     left:50%;
+     transform:translate(-50%,-50%);
+    }
+
+    #ans{
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 3% 5%;
+  padding-top: 7%;
+  padding-bottom: 15%;
+  color: white;
+    }
+
+</style>
+<body>
+    <div id="rectangle">
+        <h1 id="ans">Recognized Number: {{num}}</h1>
+    </div>
+</body>
+</html>
